@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Modern CV theme
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Adjust page margins
+\usepackage[scale=0.75]{geometry}
+
+% Personal data
+\name{Your}{Name}
+\title{Your Title}
+\address{Your Address}{City, State ZIP}{Country}
+\phone[mobile]{+1~(555)~123~4567}
+\email{your.email@example.com}
+\social[linkedin]{your-linkedin}
+\social[github]{your-github}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+\cventry{Year--Year}{Degree}{Institution}{City}{Grade}{\textit{Description}}
+\cventry{Year--Year}{Degree}{Institution}{City}{Grade}{\textit{Description}}
+
+\section{Experience}
+\subsection{Professional}
+\cventry{Year--Year}{Job Title}{Company}{City}{}{
+  \begin{itemize}
+    \item Achievement or responsibility
+    \item Achievement or responsibility
+  \end{itemize}}
+
+\cventry{Year--Year}{Job Title}{Company}{City}{}{
+  \begin{itemize}
+    \item Achievement or responsibility
+    \item Achievement or responsibility
+  \end{itemize}}
+
+\section{Skills}
+\cvitem{Category}{Skill 1, Skill 2, Skill 3}
+\cvitem{Category}{Skill 1, Skill 2, Skill 3}
+
+\section{Projects}
+\cventry{Year}{Project Name}{}{}{}{
+  \textit{Description of the project and your role}
+  \begin{itemize}
+    \item Key achievement or feature
+  \end{itemize}}
+
+\section{Languages}
+\cvitemwithcomment{Language 1}{Level}{Comment}
+\cvitemwithcomment{Language 2}{Level}{Comment}
+
+\end{document}
+
