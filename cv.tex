@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[10pt,letterpaper,sans]{moderncv}
 
 % Modern CV theme
 \moderncvstyle{classic}
@@ -8,53 +8,57 @@
 \usepackage[utf8]{inputenc}
 
 % Adjust page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
+
+% Reduce spacing
+\setlength{\hintscolumnwidth}{2.5cm}
 
 % Personal data
-\name{Your}{Name}
-\title{Your Title}
-\address{Your Address}{City, State ZIP}{Country}
-\phone[mobile]{+1~(555)~123~4567}
-\email{your.email@example.com}
-\social[linkedin]{your-linkedin}
-\social[github]{your-github}
+\name{Shane}{Auerbach}
+\address{1041 Miller Ave}{Berkeley, CA 94708}{}
+\phone[mobile]{(507) 301-7870}
+\email{shaneauerbach@gmail.com}
+\homepage{www.shaneauerbach.com}
 
 \begin{document}
 
 \makecvtitle
 
-\section{Education}
-\cventry{Year--Year}{Degree}{Institution}{City}{Grade}{\textit{Description}}
-\cventry{Year--Year}{Degree}{Institution}{City}{Grade}{\textit{Description}}
+\section{Summary}
+\cvitem{}{Product Manager with 7 years in blockchain and marketplace platforms. Led developer data products at Dune; built multiple products (consumer and B2B) at smlXL (acquired); shipped marketplace changes and led data science teams at Lyft. Economics PhD.}
 
 \section{Experience}
-\subsection{Professional}
-\cventry{Year--Year}{Job Title}{Company}{City}{}{
+\cventry{Present--\\Dec 2024}{Product Manager}{Dune}{}{}{Working on developer data products: indexing software (Sim IDX, sunset) and APIs (Sim API).}
+\cventry{Dec 2024--\\Sep 2021}{Product Manager}{smlXL}{}{}{Built evm.codes, evm.storage (sunset), and sim.io (sunset). Acquired by Dune.}
+\cventry{Sep 2021--\\Jun 2018}{Data Science Manager \& Data Scientist}{Lyft}{}{}{
   \begin{itemize}
-    \item Achievement or responsibility
-    \item Achievement or responsibility
+    \item \textbf{Data Science Manager}: Shipped pay for pickup times and upfront pay for drivers. Supported Driver Earnings, Driver Experience, and Future of Work Tech (i.e. policy implementation).
+    \item \textbf{Data Scientist}: Worked on strategy and product relating to driver base pay and policy, first in Marketplace Labs and then in the Driver Org.
   \end{itemize}}
+\cventry{Jun 2018--\\Sep 2016}{Visiting Instructor}{Carleton College}{}{}{Taught principles of micro, industrial organization, and the economics of higher education.}
 
-\cventry{Year--Year}{Job Title}{Company}{City}{}{
-  \begin{itemize}
-    \item Achievement or responsibility
-    \item Achievement or responsibility
-  \end{itemize}}
+\section{Education}
+\cventry{2018}{Ph.D. Economics}{University of Wisconsin--Madison}{}{}{}
+\cventry{2012}{M.A. (Oxon) Economics and Management}{University of Oxford}{}{}{}
+\cventry{2010}{B.A. French and Francophone Studies}{Carleton College}{}{}{}
 
-\section{Skills}
-\cvitem{Category}{Skill 1, Skill 2, Skill 3}
-\cvitem{Category}{Skill 1, Skill 2, Skill 3}
+\section{Selected Writing}
+\cvitem{2023}{\href{https://blog.smlxl.io/ethereum-apocrypha-46e155e21a26}{``Ethereum Apocrypha"} S. Auerbach}
+\cvitem{2022}{\href{https://blog.smlxl.io/how-does-ethereum-manage-data-3ee85263134b}{``How does Ethereum manage data?"} S. Auerbach}
+\cvitem{2019}{\href{https://drive.google.com/file/d/1OBk9D40jNxC2KTJ3TRInaYfq6ZDGeRKc/view?usp=sharing}{``Paying rideshare drivers for pickups,"} S. Auerbach, Information Design and Data Science Workshop, Simons Institute for the Theory of Computing}
+\cvitem{2018}{\href{https://drive.google.com/open?id=1g6eiq9xH7xj1WEC3XDKq26v6rSh4iiuA}{``A Neighborhood Search Heuristic for the P-Median Problem with Continuous Demand,"} S. Auerbach and R. Dix, Facilities Planning, Design, and Location, INFORMS Phoenix}
+\cvitem{2018}{\href{https://drive.google.com/open?id=1HlA9ZUYV35VE9Zcm1NtbEbxDBxtZf92j}{``Myopia in Dynamic Spatial Games,"} S. Auerbach and R. Dix, International Conference on Game Theory, Stony Brook}
+\cvitem{2017}{Diabat\'e, M.~M. \href{https://www.amazon.com/Lieutenant-Kouta-African-Humanities-Arts/dp/1611862272}{\textit{The Lieutenant of Kouta}}. Trans. S. Auerbach and D. Yost. East Lansing: MSU Press.}
 
-\section{Projects}
-\cventry{Year}{Project Name}{}{}{}{
-  \textit{Description of the project and your role}
-  \begin{itemize}
-    \item Key achievement or feature
-  \end{itemize}}
+\section{Additional Information}
+\cvitem{Languages}{English, French, Russian, Spanish}
+\cvitem{Programming}{Python, SQL, Typescript, Mathematica, Matlab, R, \LaTeX{} (I can vibe code in any language!)}
+\cvitem{Citizenship}{USA and New Zealand}
 
-\section{Languages}
-\cvitemwithcomment{Language 1}{Level}{Comment}
-\cvitemwithcomment{Language 2}{Level}{Comment}
+\vfill
+\begin{center}
+\textit{\small Last updated: December 2025}
+\end{center}
 
 \end{document}
 
